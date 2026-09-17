@@ -1,5 +1,7 @@
 # Pennie the Prepper
 
+[![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/knowall-ai/preppie-bot?label=CodeRabbit+Reviews&labelColor=171717&color=FF570A)](https://coderabbit.ai)
+
 Pennie is an AI-powered business analyst that joins Microsoft Teams meetings as a real-time participant. She listens to conversations using advanced speech-to-text with speaker diarization, identifies requirements, asks clarification questions, and creates high-quality Epics, Features, and User Stories in Azure DevOps — all using the T-Minus-15 methodology.
 
 Pennie is built using [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-services/ai-foundry/overview), Graph Communications API for real-time audio access, and Azure Speech Services for transcription with speaker identification. The entire solution is deployed via GitHub Actions and is fully defined as code, enabling secure, reproducible, and tenant-agnostic deployments.
